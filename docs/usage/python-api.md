@@ -160,7 +160,7 @@ Period.HISTORICAL
 "historical" or "HISTORICAL"
 ```
 If a weather service has periods, the period argument typically can be used as replacement
-for the start_date and end_date arguments. In case both arguments are given they are used
+for the ``start_date`` and ``end_date`` arguments. In case both arguments are given they are used
 as a filter for the data.
 
 Regarding the definition of requested parameters:
@@ -327,7 +327,7 @@ df
 ### Values
 
 Values are just an extension of requests. You can query data by using the
-`.query()` method on the values object:
+``.query()`` method on the values object:
 
 ```{code-cell}
 ---
@@ -382,8 +382,8 @@ once, parsed nicely into column structure with improved parameter names. Instead
 ``start_date`` and ``end_date`` you may as well want to use ``period`` to update your
 database once in a while with a fixed set of records.
 
-In case you use `filter_by_rank` you may want to skip empty stations. We can use the Settings from 
-[settings](settings.md) to achieve that:
+In case you use ``filter_by_rank`` you may want to skip empty stations. We can use the
+``Settings`` from [settings](settings.md) to achieve that:
 
 ```{code-cell}
 ---
